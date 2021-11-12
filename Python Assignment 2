@@ -1,0 +1,18 @@
+#Solution 1 
+r = int(input("Enter The Number :"))
+for k in range(0,r):
+  for m in range(0,k+1):
+     print("*",end = " ")
+  print(" ")
+for k in range(r+1,0,-1):
+  for m in range(0,k-1):
+      print("*",end = " ")
+  print("\r")         
+  
+  
+  #Solution 2
+s = input("Enter word to reverse: ")
+
+for i in range(len(s) - 1, -1, -1):
+  print(s[i], end="")
+print("\n")
